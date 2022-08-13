@@ -11,7 +11,10 @@ MediaPipe에서 **손 랜드마크 모델** 은 직접 좌표 예측을 통해 �
 그 외에 웹캠으로 입력되는 영상 데이터 처리를 위해 **OpenCV**, 인공지능 모델 학습 및 처리를 위해 **tensorflow** 를 사용한다. 
 
 ## 학습 데이터 수집
-[학습 데이터 수집 코드](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/code/create_dataset.py) 
+[학습 데이터 수집 코드](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/code/create_dataset.py) 를 사용해 학습 데이터를 수집할 수 있다.   
+코드를 실행하면 secs_for_action 동안 각 제스쳐에 대한 데이터를 수집한다. (제스쳐를 바꾸는데 30초의 대기 시간이 있음)               
+각 프레임에서 손의 랜드마크가 감지되면 손가락 마디의 랜드마크의 벡터를 사용하여 각도 데이터를 추출한다. 그 후, 랜드마크의 데이터와 각도 데이터를 합친 후 **스퀀스 데이터**로 변형하여 
+저장한다.
 ## 학습 모델 만들기
 
 ## 학습 모델 사용
