@@ -1,5 +1,7 @@
 # arduino code - hand gesture led      
-  
+웹캠으로 인식되는 손 모양에 따라 led를 깜빡이게 하는 코드 
+
+***
 ```C
 #include <Servo.h>
 
