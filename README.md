@@ -34,9 +34,9 @@ model = Sequential([
 웹캠으로 들어온 데이터를 **학습 데이터 수집** 과정에 진행한 것처럼 랜드마크의 데이터와 각도 데이터를 합친 데이터를 구한 다음, 학습 모델에 넣어 예측을 진행한다.      
 그 후, 연속된 행동이 3번 이상 감지되었을 때 제스쳐를 취했다고 판단하고 해당 제스쳐에 대한 라벨을 화면에 텍스트로 띄워준다.         
 
-## Hand-gesture LED module
-![KakaoTalk_20220813_155847587](https://user-images.githubusercontent.com/81175672/184493931-c2a076c8-6691-4513-b15b-be3ef96765ea.jpg)
-
+## Hand-gesture LED module      
+<img src="https://user-images.githubusercontent.com/81175672/184493931-c2a076c8-6691-4513-b15b-be3ef96765ea.jpg"  width="500" height="600"/>
+손 모듈 제작 전에 제스쳐 테스트 용으로, 간단한 LED 회로를 만들어 확인해보았다.
 
 
 # 참고자료
