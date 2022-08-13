@@ -35,8 +35,9 @@ model = Sequential([
 그 후, 연속된 행동이 3번 이상 감지되었을 때 제스쳐를 취했다고 판단하고 해당 제스쳐에 대한 라벨을 화면에 텍스트로 띄워준다.         
 
 ## Hand-gesture LED module      
-<img src="https://user-images.githubusercontent.com/81175672/184493931-c2a076c8-6691-4513-b15b-be3ef96765ea.jpg"  width="500" height="600"/>
-손 모듈 제작 전에 제스쳐 테스트 용으로, 간단한 LED 회로를 만들어 확인해보았다.                          
+<img src="https://user-images.githubusercontent.com/81175672/184493931-c2a076c8-6691-4513-b15b-be3ef96765ea.jpg"  width="500" height="600"/>            
+
+손 모듈 제작 전에 제스쳐 테스트 용으로, 간단한 LED 회로를 만들어 확인해보았다.                                       
 [시연영상](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/hand_module_led.mp4)         
 
 # 참고자료
