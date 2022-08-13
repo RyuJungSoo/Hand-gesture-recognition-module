@@ -37,7 +37,7 @@ model = Sequential([
 ## Hand-gesture LED module      
 <img src="https://user-images.githubusercontent.com/81175672/184493931-c2a076c8-6691-4513-b15b-be3ef96765ea.jpg"  width="500" height="600"/>
 손 모듈 제작 전에 제스쳐 테스트 용으로, 간단한 LED 회로를 만들어 확인해보았다.
-
+[![테스트 영상](https://img.youtube.com/vi/tto-_sStJzU/0.jpg)](https://www.youtube.com/watch?v=tto-_sStJzU)   
 
 # 참고자료
 [영상1](https://www.youtube.com/watch?v=CJSobYHYDo4&t=247s)          
