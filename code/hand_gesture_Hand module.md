@@ -1,5 +1,5 @@
-# arduino code - hand gesture servo      
-웹캠으로 인식되는 손 모양에 따라 servo를 움직이게 하는 코드 
+# arduino code - hand gesture Hand module      
+웹캠으로 인식되는 손 모양에 따라 손 모듈의 를 움직이게 하는 코드 
 
 ***
 ```C
