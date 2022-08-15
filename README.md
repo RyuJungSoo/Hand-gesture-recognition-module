@@ -40,7 +40,7 @@ model = Sequential([
 손 모듈 제작 전에 제스쳐 테스트 용으로, 간단한 LED 회로를 만들어 확인해보았다.                                       
 [시연영상](https://youtube.com/shorts/tto-_sStJzU?feature=share)        
 
-## Hand-gesture Hand module
+## Hand-gesture-recognition Hand module
 <img src="https://user-images.githubusercontent.com/81175672/184618394-1347f53c-2880-4565-8106-582cc5eab626.jpg"  width="400" height="500"/>         
 아두이노 우노와 서보모터를 이용하여 손 모듈의 회로를 제작했다.
 
