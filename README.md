@@ -44,7 +44,7 @@ model = Sequential([
 ## Hand-gesture-recognition Hand module
 <img src="https://user-images.githubusercontent.com/81175672/184618394-1347f53c-2880-4565-8106-582cc5eab626.jpg"  width="400" height="500"/>         
 아두이노 우노와 서보모터를 이용하여 손 모듈의 회로를 제작했다.
-
+[소스 코드](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/code/hand_gesture_recognition%20Hand%20module.md)                 
 ## 한계점
 - 정교한 모듈이 아니다 보니 즉각적인 모션 반응이 느림.
 - 모션에 따른 아두이노의 딜레이를 줄이기 위해 delay를 없애면 노트북과 아두이노가 서로 반응 속도를 따라가지 못해 멈추는 현상이 일어남. 
