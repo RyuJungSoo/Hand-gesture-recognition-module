@@ -42,8 +42,9 @@ model = Sequential([
 [시연영상](https://youtube.com/shorts/tto-_sStJzU?feature=share)        
 
 ## Hand-gesture-recognition Hand module
-<img src="https://user-images.githubusercontent.com/81175672/184618394-1347f53c-2880-4565-8106-582cc5eab626.jpg"  width="400" height="500"/>         
-아두이노 우노와 서보모터를 이용하여 손 모듈의 회로를 제작했다.
+<img src="https://user-images.githubusercontent.com/81175672/184618394-1347f53c-2880-4565-8106-582cc5eab626.jpg"  width="400" height="500"/>          
+
+아두이노 우노와 서보모터를 이용하여 손 모듈의 회로를 제작했다.                
 [소스 코드](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/code/hand_gesture_recognition%20Hand%20module.md)                 
 ## 한계점
 - 정교한 모듈이 아니다 보니 즉각적인 모션 반응이 느림.
