@@ -38,12 +38,15 @@ model = Sequential([
 <img src="https://user-images.githubusercontent.com/81175672/184493931-c2a076c8-6691-4513-b15b-be3ef96765ea.jpg"  width="500" height="600"/>            
 
 손 모듈 제작 전에 제스쳐 테스트 용으로, 간단한 LED 회로를 만들어 확인해보았다.                                       
-[시연영상](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/hand_module_led.mp4)          
+[시연영상](https://youtube.com/shorts/tto-_sStJzU?feature=share)        
 
 ## Hand-gesture Hand module
 <img src="https://user-images.githubusercontent.com/81175672/184618394-1347f53c-2880-4565-8106-582cc5eab626.jpg"  width="400" height="500"/>         
 아두이노 우노와 서보모터를 이용하여 손 모듈의 회로를 제작했다.
 
+## 한계점
+- 정교한 모듈이 아니다 보니 즉각적인 모션 반응이 느림.
+- 모션에 따른 아두이노의 딜레이를 줄이기 위해 delay를 없애면 노트북과 아두이노가 반응 속도를 따라가지 못해서 멈추는 현상이 일어남. 
 
 # 참고자료
 [영상1](https://www.youtube.com/watch?v=CJSobYHYDo4&t=247s)          
