@@ -37,8 +37,8 @@ model = Sequential([
 ## Hand-gesture LED module      
 <img src="https://user-images.githubusercontent.com/81175672/184493931-c2a076c8-6691-4513-b15b-be3ef96765ea.jpg"  width="500" height="600"/>            
 
-손 모듈 제작 전에 제스쳐 테스트 용으로, 간단한 LED 회로를 만들어 확인해보았다.           
-[소스 코드](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/code/hand_gesture_led.md)                              
+손 모듈 제작 전에 제스쳐 테스트 용으로, 간단한 LED 회로를 만들어 확인해보았다.                         
+[소스 코드](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/code/hand_gesture_led.md)                                                    
 [시연영상](https://youtube.com/shorts/tto-_sStJzU?feature=share)        
 
 ## Hand-gesture-recognition Hand module
@@ -47,7 +47,8 @@ model = Sequential([
 아두이노 우노와 서보모터를 이용하여 손 모듈의 회로를 제작했다.                
 <img src="https://user-images.githubusercontent.com/81175672/185056332-26e01e4c-0d50-4a65-944a-b7aad09a6dff.jpg"  width="400" height="500"/>            
 우드락과 빨대를 사용하여 간단한 손 모형을 구현했다.            
-[소스 코드](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/code/hand_gesture_recognition%20Hand%20module.md)             
+[소스 코드](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/code/hand_gesture_recognition%20Hand%20module.md)      
+***
 https://user-images.githubusercontent.com/81175672/185057109-9c35da7d-f240-4afc-94d7-40409233cd02.mp4
 ## 한계점
 - 정교한 모듈이 아니다 보니 즉각적인 모션 반응이 느림.
