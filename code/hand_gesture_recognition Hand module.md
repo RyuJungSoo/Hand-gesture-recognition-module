@@ -13,7 +13,8 @@ Servo servo4;
 Servo servo5;
 
 
-char flag = '5';
+char flag = '5'; // 현재 움직임을 저장하는 flag
+char flag1 = '5'; // 이전 움직임을 저장하는 flag1
 
 void setup() {
   
@@ -32,77 +33,232 @@ void loop() {
     flag = Serial.read();
   }
 
-  
+
+  // Zero
   if(flag == '0')
   {
     Serial.println('0');
-    servo1.write(-90);
-    servo2.write(-90);
-    servo3.write(-90);
-    servo4.write(-90);
-    servo5.write(-90);
+    if(flag1 == '1')
+    {
+      servo2.write(-90);
+    }
 
-  
-    delay(1000);
+    else if(flag1 == '2')
+    {
+      servo2.write(-90);
+      servo3.write(-90);
+      }
+
+    else if(flag1 == '3')
+    {
+      servo2.write(-90);
+      servo3.write(-90);
+      servo4.write(-90);
+      }
+
+    else if(flag1 == '4')
+    {
+      servo2.write(-90);
+      servo3.write(-90);
+      servo4.write(-90);
+      servo5.write(-90);
+      }
     
+    else
+    {
+      servo1.write(-90);
+      servo2.write(-90);
+      servo3.write(-90);
+      servo4.write(-90);
+      servo5.write(-90);
+
+      delay(1000);
+
+      
+    }
+    flag1 = '0';
     flag = '5';
     }
 
+
+   // One
    else if(flag == '1')
    {
     Serial.println('1');
-    servo1.write(-90);
 
-    servo3.write(-90);
-    servo4.write(-90);
-    servo5.write(-90);
+    if(flag1 == '0')
+    {
+      servo2.write(90);  
+    }
 
-    
-    delay(1000);
-    
+    else if(flag1 == '2')
+    {
+      servo3.write(-90);
+      }
+
+    else if(flag1 == '3')
+    {
+      servo3.write(-90);
+      servo4.write(-90);
+      }
+
+    else if(flag1 == '4')
+    {
+      servo3.write(-90);
+      servo4.write(-90);
+      servo5.write(-90);
+      }
+
+    else
+    {
+      servo1.write(-90);
+
+      servo3.write(-90);
+      servo4.write(-90);
+      servo5.write(-90);
+
+
+
+     delay(1000);
+    }
+
+    flag1 = '1';
     flag = '5';
     }
 
+
+
+  // Two
    else if(flag == '2')
    {
     Serial.println('2');
+
+    if(flag1 == '0')
+    {
+      servo2.write(90);
+      servo3.write(90);
+      }
+
+    else if(flag1 == '1')
+    {
+      servo3.write(90);
+      }
+
+    else if(flag1 == '3')
+    {
+      servo3.write(-90);
+      }
+
+    else if(flag1 == '4')
+    {
+      servo4.write(-90);
+      servo5.write(-90);
+      }
+
+    else
+    {
     servo1.write(-90);
 
     servo4.write(-90);
     servo5.write(-90);
 
-    
     delay(1000);
-    
+    }
+    flag1 = '2';
     flag = '5';
     }
 
-   
+
+   // Three
    else if(flag == '3')
    {
     Serial.println('3');
+
+    if(flag1 == '0')
+    {
+      servo2.write(90);
+      servo3.write(90);
+      servo4.write(90);
+      
+      }
+
+    else if(flag1 == '1')
+    {
+      servo3.write(90);
+      servo4.write(90);
+      }
+
+    else if(flag1 == '2')
+    {
+      servo4.write(90);
+      }
+
+    else if(flag1 == '4')
+    {
+      servo4.write(-90);
+      
+      }
+
+    else
+    {
     servo1.write(-90);
 
 
     servo5.write(-90);
 
-   
+
     delay(1000);
-    
+    }
+    flag1 = '3';
     flag = '5';
     }
 
+
+   // Four
    else if(flag == '4')
    {
     Serial.println('4');
+
+    if(flag1 == '0')
+    {
+      servo2.write(90);
+      servo3.write(90);
+      servo4.write(90);
+      servo5.write(90);
+      }
+
+    else if(flag1 == '1')
+    {
+      servo3.write(90);
+      servo4.write(90);
+      servo5.write(90);
+      
+      }
+
+    else if(flag1 == '2')
+    {
+      servo4.write(90);
+      servo5.write(90);
+      }
+
+    else if(flag1 == '3')
+    {
+      servo5.write(90);
+      }
+    
+    else
+    {
     servo1.write(-90);
 
-    
+
     delay(1000);
-    
+    }
+    flag1 = '4';
     flag = '5';
     }
-    
+
+
+    // Five
     else if(flag == '5')
     {
       Serial.println('5');
@@ -111,9 +267,9 @@ void loop() {
       servo3.write(90);
       servo4.write(90);
       servo5.write(90);
-      
+
       //delay(1000);
-      
+
     }
     
     //delay(1000);
