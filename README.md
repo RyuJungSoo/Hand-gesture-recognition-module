@@ -50,6 +50,7 @@ model = Sequential([
 우드락과 빨대를 사용하여 간단한 손 모형을 구현했다.            
 [소스 코드](https://github.com/RyuJungSoo/Hand-gesture-recognition-module/blob/main/code/hand_gesture_recognition%20Hand%20module.md)      
 ***
+## 손 모듈 시연 영상
 https://user-images.githubusercontent.com/81175672/185057109-9c35da7d-f240-4afc-94d7-40409233cd02.mp4
 ## 한계점
 - 정교한 모듈이 아니다 보니 즉각적인 모션 반응이 느림.
