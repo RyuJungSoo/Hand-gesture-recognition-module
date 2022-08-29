@@ -39,12 +39,13 @@ while cap.isOpened():
         cv2.putText(img, f'Waiting for collecting {action.upper()} action...', org=(10,30),
         fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(255,255,255), thickness=2)
         
-        #30초동안 대기
+        #3초동안 대기
         cv2.imshow('img', img)
         cv2.waitKey(3000)
 
         start_time = time.time()
-
+        
+        #30초동안 촬영
         while time.time() - start_time < secs_for_action:
             ret, img = cap.read()
 
