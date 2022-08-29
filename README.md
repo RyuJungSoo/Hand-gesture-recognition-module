@@ -57,6 +57,6 @@ https://user-images.githubusercontent.com/81175672/185057109-9c35da7d-f240-4afc-
 - 모션에 따른 아두이노의 딜레이를 줄이기 위해 delay를 없애면 노트북과 아두이노가 서로 반응 속도를 따라가지 못해 멈추는 현상이 일어남. 
 
 # 참고자료
-[영상1](https://www.youtube.com/watch?v=CJSobYHYDo4&t=247s)          
-[영상2](https://www.youtube.com/watch?v=udeQhZHx-00&t=555s)      
-[영상3](https://www.youtube.com/watch?v=eHxDWhtbRCk)
+[손가락 인식 볼륨 조절기 만들기](https://www.youtube.com/watch?v=CJSobYHYDo4&t=247s)          
+[가위바위보 기계 만들기 - 손가락 인식 인공지능](https://www.youtube.com/watch?v=udeQhZHx-00&t=555s)      
+[손 제스처 인식 딥러닝 인공지능 학습시키기](https://www.youtube.com/watch?v=eHxDWhtbRCk)
